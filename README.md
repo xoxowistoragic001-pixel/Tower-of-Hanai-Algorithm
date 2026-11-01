@@ -3,5 +3,7 @@ The Tower of Hanoi is a mathematical puzzle that consists of three rods and a nu
 Tower of Hanoi algorithm:
 
 Move n−1 disks from source to auxiliary
+
 Move disk n from source to destination
+
 Move n−1 disks from auxiliary to destination
