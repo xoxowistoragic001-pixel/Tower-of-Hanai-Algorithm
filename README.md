@@ -8,7 +8,8 @@ Move disk n from source to destination
 
 Move n−1 disks from auxiliary to destination
 
-Key Properties
+Key Properties:-
+
 Minimum number of moves: 2ⁿ − 1. Moving 1 disk takes 1 move, 2 disks take 3, 3 disks take 7, 4 disks take 15, and so on — each additional disk roughly doubles the work.
 
 Time complexity: O(2ⁿ), which grows exponentially. For 64 disks (the legendary version), it would take about 18.4 quintillion moves — far longer than the age of the universe at one move per second.
