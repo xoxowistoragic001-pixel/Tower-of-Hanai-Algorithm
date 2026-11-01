@@ -1,0 +1,19 @@
+# Tower of Hanoi
+
+A Python implementation of the classic mathematical puzzle "Tower of Hanoi".
+
+## About the Project
+
+The Tower of Hanoi is a mathematical puzzle that consists of three rods and a number of disks of different sizes. This script uses recursion to solve the puzzle with the minimum number of moves.
+
+## How to Run
+
+1. Ensure you have Python installed.
+2. Clone this repository: `git clone https://github.com/xoxowistoragic001-pixel/Tower-of-Hanoi-Algorithm.git`
+3. Run the script: `python tower_of_hanoi.py`
+
+
+## Learning Outcomes
+
+- Understood 'Recursion' and its application in algorithms.
+- Learned about 'Time Complexities' (O(2^n)).
