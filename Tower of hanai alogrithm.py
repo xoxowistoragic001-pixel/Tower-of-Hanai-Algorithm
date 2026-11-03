@@ -4,9 +4,9 @@ from tkinter import messagebox
 
 WIDTH = 800
 HEIGHT = 500
-ROD_Y = 400          # Rods ka neeche ka hissa
-ROD_HEIGHT = 300     # Rod ki height
-DISK_HEIGHT = 25     # Har disk ki height
+ROD_Y = 400          # Rods Base
+ROD_HEIGHT = 300     # Rod height
+DISK_HEIGHT = 25     # disk height
 BASE_Y = 440         # Base line
 
 
@@ -62,11 +62,11 @@ class HanoiGame:
         btn_frame = tk.Frame(root, bg="#f0f0f0")
         btn_frame.pack(pady=5)
 
-        tk.Button(btn_frame, text="🔄 Reset", font=("Arial", 12),
+        tk.Button(btn_frame, text=" Reset", font=("Arial", 12),
                   command=self.reset).pack(side=tk.LEFT, padx=5)
-        tk.Button(btn_frame, text="🤖 Auto Solve", font=("Arial", 12),
+        tk.Button(btn_frame, text=" Auto Solve", font=("Arial", 12),
                   command=self.auto_solve).pack(side=tk.LEFT, padx=5)
-        tk.Button(btn_frame, text="❌ Quit", font=("Arial", 12),
+        tk.Button(btn_frame, text=" Quit", font=("Arial", 12),
                   command=root.destroy).pack(side=tk.LEFT, padx=5)
 
         
@@ -260,7 +260,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     root.title("Tower of Hanoi")
 
-    # Disks poochho
+    # Ask Disks 
     from tkinter import simpledialog
     n = simpledialog.askinteger("Disks", "Disks? (1-7)", minvalue=1, maxvalue=7)
     if n is None:
